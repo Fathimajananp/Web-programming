@@ -1,0 +1,25 @@
+h1{
+text-align:center;color:red;
+}
+p
+{
+color:blue;text-align:center;opacity:0.3;
+}
+a
+{
+color:red;
+}
+body
+{
+background-color:pink;
+}
+div
+{
+background-color:lightgrey;
+width:250px;
+height:250px;
+border:10px solid green;
+padding:50px;
+margin:50px;
+}
+

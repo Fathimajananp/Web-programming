@@ -1,0 +1,93 @@
+<html>
+<head>
+<title>Predefined functions</title>
+</head>
+<body style="background-color:lightpink";>
+<h1 align=center>Javascript Predefined functions</h1>
+<h2>String</h2>
+<h3>string=Welcome To Java</h3>
+<script>
+document.write("<h4>1.Length:</h4>");
+var x="Welcome To Java"
+var y=x.length;
+document.write("length of string is ", y);
+
+document.write("<h4>2.slice substring:</h4>");
+var y=x.slice(8,10);
+document.write("sub string of a string is ", y);
+
+document.write("<h4>3.sub str of a string:</h4>");
+var y=x.substr(11,4);
+document.write("sub string of a string is ", y);
+
+document.write("<h4>4.Replace the string:</h4>");
+var y=x.replace("Java","Javascript");
+document.write("The new string is ", y);
+
+document.write("<h4>5.Concatination of the string:</h4>");
+var y="script World";
+var z=x.concat(" ",y);
+document.write("The new string is ", z);
+
+document.write("<h4>6.Uppercase of the string:</h4>");
+var y=x.toUpperCase();
+document.write("The string is ", y);
+
+document.write("<h4>7.Lowercase of the string:</h4>");
+var y=x.toLowerCase();
+document.write("The string is ", y);
+
+document.write("<h4>8.Index of the string:</h4>");
+var y=x.indexOf("Java");
+document.write("The string is ", y);
+
+document.write("<h4>9.Char At of the string:</h4>");
+var y=x.charAt("8");
+document.write("The position value is ", y);
+
+</script>
+
+<h2>Math</h2>
+<script>
+var x=4
+var a=20.2
+var z=-12
+document.write("<h4>1.pi function:</h4>");
+var y=Math.PI;
+document.write("The pi value is ", y);
+
+document.write("<h4>2.Squareroot function:</h4>");
+var y=Math.sqrt(x);
+document.write("The square root value is ", y);
+
+document.write("<h4>3.power function:</h4>");
+var y=Math.pow(x,2);
+document.write("The power value is ", y);
+
+document.write("<h4>4.Absolute function:</h4>");
+var y=Math.abs(z);
+document.write("The absolute value is ", y);
+
+document.write("<h4>5.Minimum function:</h4>");
+var y=Math.min(12,10,15,20);
+document.write("The minimum value is ", y);
+
+document.write("<h4>6.Maximum function:</h4>");
+var y=Math.max(12,10,15,20);
+document.write("The maximum value is ", y);
+
+document.write("<h4>7.Round function:</h4>");
+var y=Math.round(a);
+document.write("The round value is ", y);
+
+document.write("<h4>8.ceil function:</h4>");
+var y=Math.ceil(a);
+document.write("The ceil value is ", y);
+
+document.write("<h4>9.floor function:</h4>");
+var y=Math.floor(a);
+document.write("The floor value is ", y);
+
+</script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<html>
+<head><title>Registration form</title>
+</head>
+<body>
+<h1 style="text-align:center;color:plum;"><u>REGISTRATION FORM</u></h1>
+<form method="post" >
+<fieldset><legend>Personal information</legend>
+<table  align="center" style="background-color:powderblue;" cellspacing="5" cellpadding="10" height="150" width="200">
+<tr>
+<th>First name:</th>
+<td><input type="text" ></td>
+</tr><tr>
+<th>Address:</th>
+<td><textarea name=address" rows="3"  cols="23"></textarea></td>
+</tr>
+<tr>
+<th>Password:</th>
+<td><input type="password" ></td>
+</tr>
+<tr>
+<th>Gender:</th>
+<td><input type="radio" name="gender">MALE
+<input type="radio"  name="gender" >FEMALE</td>
+</tr>
+<tr>
+<th>Email:</th>
+<td><input type="email" ></td>
+</tr>
+<tr>
+<th>Date of Birth:</th>
+<td><input type="date"></td>
+</tr>
+<tr>
+<th>Age:</th>
+<td><input type="number"></td>
+</tr>
+<tr>
+<th>Phone number:</th>
+<td><select id="number" name="phone">
+<option value="91">91</option>
+<option value="92">92</option>
+<option value="93">93</option>
+<option value="94">94</option>
+<option value="95">95</option>
+</select><input type="text">
+</tr>
+
+<tr>
+<th>Course:</th>
+<td>MBA<input type="checkbox" name="course">
+MCA<input type="checkbox" name="course">Btech
+<input type="checkbox" name="course">Civil Engineering
+<input type="checkbox" name="course">Architecture
+<input type="checkbox" name="course">Polytechnique
+<input type="checkbox" name="course">
+</td>
+</tr>
+<tr>
+<th>Institution:</th>
+<td><input list="college name">
+<datalist id="college name" name="institute">
+<option value="KMCT Engineering college"></option>
+<option value="AWH Engineering college"></option>
+<option value="JDT Arts and science college"></option>
+</datalist>
+</td>
+</tr>
+<tr><td></td>
+<td colspan="2"><input type="button" value="SUBMIT" style="background-color:powderpink;">
+<input type="button" value="RESET" style="background-color:powderpink;">
+</tr>
+</table>
+</form>
+</body>
+</html>
